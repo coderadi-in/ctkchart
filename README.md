@@ -78,7 +78,7 @@
             time.sleep(1)
     
     #call the loop as thead
-    theading.Thread(target=loop).start()
+    threading.Thread(target=loop).start()
     ```
     
 ---
